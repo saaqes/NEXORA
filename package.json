@@ -1,0 +1,14 @@
+{
+  "name": "nexora",
+  "version": "1.0.0",
+  "description": "NEXORA — Tu dinero, tu control. Control financiero personal.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "assets": "node scripts/build-assets.mjs"
+  },
+  "engines": { "node": ">=18" },
+  "license": "UNLICENSED"
+}

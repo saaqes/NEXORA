@@ -1,0 +1,16 @@
+node_modules/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.log
+.DS_Store
+coverage/
+dist/
+.vscode/
+.idea/
+# copias de seguridad exportadas de la app (contienen datos financieros personales)
+nexora-copia-*.json
+nexora-movimientos-*.csv
+nexora-informe-*.csv
